@@ -1,0 +1,165 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/principal-netflix.jpg');
+    background-size: cover;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .logo {
+    margin-top: 5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    margin: 20px 45px;
+}
+
+.botao {
+    background-color: red;
+    color: white;
+}
+
+header .botao {
+    width: 90px;
+    height: 35px;
+
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 18px;
+}
+
+header .botao:hover {
+    cursor: pointer;
+}
+
+main {
+    padding: 65px 0;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 15px;
+}
+
+.titulo h1 {
+    font-size: 60px;
+}
+
+.sub-titulo {
+    margin-bottom: 40px;
+}
+
+.sub-titulo h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.enviar-assinatura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.assinatura p{
+    font-size: 20px;
+}
+
+.assinatura input {
+    height: 48px;
+    width: 500px;
+    padding: 8px;
+    border: none;
+    margin-right: 5px;
+}
+
+.assinatura button {
+    border: none;
+    height: 48px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 900px) {
+    .titulo h1 {
+        font-size: 40px;
+    }
+
+    .sub-titulo h3 {
+        font-size: 24px;
+    }
+
+    .assinatura p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 90%;
+    }
+
+    .assinatura {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .assinatura .enviar-assinatura{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .assinatura input {
+        margin: 18px 0;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        margin: 10px 45px;
+    }
+    header .logo {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header .logo {
+        font-size: 22px;
+    }
+
+    header .botao {
+        height: 25px;
+        width: 60px;
+        font-size: 16px;
+    }
+
+    .assinatura input {
+        width: 250px;
+    }
+
+}
