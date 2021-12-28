@@ -3,3 +3,6 @@ Projeto feito por Luis Fernando Paganini, baseado nos materiais disponibilizado 
 
 ## Tecnologias Usadas
 Nesse projeto foi utilizado HTML, CSS, Javascript e JQuery.
+
+## Github Pages
+link: https://fernando256.github.io/projeto-filmix/
