@@ -5,4 +5,4 @@ Projeto feito por Luis Fernando Paganini, baseado nos materiais disponibilizado 
 Nesse projeto foi utilizado HTML, CSS, Javascript e JQuery.
 
 ## Github Pages
-link: https://fernando256.github.io/projeto-filmix/
+link: https://luispaganini.github.io/projeto-filmix/
